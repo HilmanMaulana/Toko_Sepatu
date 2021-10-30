@@ -16,30 +16,14 @@ body{
     padding: 20px;
 }
 
-#wrapper header hgroup{
-    float: left;
+hgroup{
+    padding: 8px;
+    background-color: #232323;
     color: #fff;
 }
 
-#wrapper header nav{
-    float: right;
-    margin-top: 50px;
-}
-
-#wrapper header nav ul{
-    padding: 0;
-    margin: 0;
-}
-
-#wrapper header nav ul li{
-    float: left;
-    list-style: none;
-}
-
-#wrapper header nav ul li a{
-    padding: 15px;
-    color: #fff;
-    text-decoration: none;
+hgroup h1{
+    text-align: center;
 }
 
 .clear{
@@ -48,14 +32,45 @@ body{
 
 footer{
     background: #232323;
-    padding: 20px;
+    padding: 5px;
 }
 
-footer a{
+footer p{
+    text-align: center;
     color: #fff;
     text-decoration: none;
 }
 
 section {
     padding: 20px;
+}
+
+section h1{
+    text-align: center;
+}
+
+.item{
+    text-align: left;
+}
+
+tr td a{
+    padding: 7px;
+    text-decoration: none;
+    background-color: #232323;
+    margin-top: 10px;
+    color: #fff;
+    border-radius: 10px;
+    border: 2px solid #232323;
+}
+
+tr td a:hover{
+    background-color: #fff;
+    color: #232323;
+    border: 2px solid #fff;
+}
+
+tr td a:active{
+    background-color: rgb(6, 0, 90);
+    color: #fff;
+    border: 2px solid rgb(6, 0, 90);
 }

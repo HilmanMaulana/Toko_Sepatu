@@ -14,17 +14,17 @@
                     </td>
                 </tr>
                 <tr>
-                    <th>Nama</th>
+                    <th class="item">Nama</th>
                     <th>:</th>
                     <td><input type="text" name="nama" id="nama"></td>
                 </tr>
                 <tr>
-                    <th>No Hp</th>
+                    <th class="item">No Hp</th>
                     <th>:</th>
                     <td><input type="text" name="noHp" id="noHp"></td>
                 </tr>
                 <tr>
-                    <th>Sepatu</th>
+                    <th class="item">Sepatu</th>
                     <th>:</th>
                     <td>
                         <select name="sepatu" id="sepatu">
@@ -38,7 +38,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <th>Nomor Sepatu</th>
+                    <th class="item">Nomor Sepatu</th>
                     <th>:</th>
                     <td>
                         <select name="noSepatu" id="noSepatu">
